@@ -3,6 +3,7 @@ Process for identifying changes in serials holdings for upload into OCLC Worldsh
 
 Before uploading into OpenRefine, combine the two spreadsheets you will be comparing into one spreadsheet.  
 Add two columns to combined spreadsheet:
+
 1. Row Number - Fill down in sequence to retain original row number of each of the separate spreadsheets.
 2. Sheet Date - Fill down the sheet date for each of the separate spreadsheets.
 
