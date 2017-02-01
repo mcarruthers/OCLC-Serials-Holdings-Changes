@@ -12,6 +12,7 @@ Additional columns (in order): Type, Title, ISSN, eISSN, ISBN10, ISBN13, StartDa
 OpenRefine will be able to process any spreadsheet upwards of about 1,000,000 rows.  
 
 During upload, be sure to select character encoding as UTF-8.
+
 After uploading the spreadsheet, choose the JSON script to run.
 
 Two JSON scripts: one designed to identify additions and changes; the other to identify deletions.
