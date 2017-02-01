@@ -1,7 +1,12 @@
 # OCLC-Serials-Holdings-Changes
 Process for identifying changes in serials holdings for upload into OCLC Worldshare Knowledge Base.  Uses OpenRefine to compare reports of holdings for two consecutive months to identify additions, changes, and deletions.
 
-Before uploading into OpenRefine, combine the two spreadsheets you will be comparing into one spreadsheet.  OpenRefine will be able to process any spreadsheet upwards of about 1,000,000 rows.  After uploading the spreadsheet, choose the JSON script to run.
+Before uploading into OpenRefine, combine the two spreadsheets you will be comparing into one spreadsheet.  
+Add two columns to combined spreadsheet:
+1. Row Number - Fill down in sequence to retain original row number of each of the separate spreadsheets.
+2. Sheet Date - Fill down the sheet date for each of the separate spreadsheets.
+
+OpenRefine will be able to process any spreadsheet upwards of about 1,000,000 rows.  After uploading the spreadsheet, choose the JSON script to run.
 
 Two JSON scripts: one designed to identify additions and changes; the other to identify deletions.
 
