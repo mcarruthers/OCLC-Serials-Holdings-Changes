@@ -9,7 +9,10 @@ Add two columns to beginning of combined spreadsheet:
 
 Additional columns (in order): Type, Title, ISSN, eISSN, ISBN10, ISBN13, StartDate, EndDate, PublicationDate, Resource, Subject, URL, Author
 
-OpenRefine will be able to process any spreadsheet upwards of about 1,000,000 rows.  After uploading the spreadsheet, choose the JSON script to run.
+OpenRefine will be able to process any spreadsheet upwards of about 1,000,000 rows.  
+
+During upload, be sure to select character encoding as UTF-8.
+After uploading the spreadsheet, choose the JSON script to run.
 
 Two JSON scripts: one designed to identify additions and changes; the other to identify deletions.
 
