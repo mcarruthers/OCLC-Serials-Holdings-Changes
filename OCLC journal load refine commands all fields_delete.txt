@@ -1,7 +1,7 @@
 [
   {
     "op": "core/column-addition",
-    "description": "Create column Combined at index 14 based on column URL using expression grel:cells['Resource'].value + '^' + cells['URL'].value\"",
+    "description": "Create column Combined at index 14 based on column URL using expression grel:cells['Title'].value + '^' + cells['StartDate'].value + '^' + cells['EndDate'].value + '^' + cells['Resource'].value + '^' + cells['URL'].value",
     "engineConfig": {
       "mode": "row-based",
       "facets": []
@@ -9,7 +9,7 @@
     "newColumnName": "Combined",
     "columnInsertIndex": 14,
     "baseColumnName": "URL",
-    "expression": "grel:cells['Resource'].value + '^' + cells['URL'].value\"",
+    "expression": "grel:cells['Title'].value + '^' + cells['StartDate'].value + '^' + cells['EndDate'].value + '^' + cells['Resource'].value + '^' + cells['URL'].value",
     "onError": "set-to-blank"
   },
   {
