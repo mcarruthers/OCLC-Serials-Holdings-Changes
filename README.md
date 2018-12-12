@@ -1,4 +1,6 @@
 # OCLC-Serials-Holdings-Changes
+DEPRICATED: please see https://github.com/mcarruthers/OCLC-serials-and-ebooks-R-scripts for updated workflow.
+
 Process for identifying changes in serials holdings for upload into OCLC Worldshare Knowledge Base.  Uses OpenRefine to compare reports of holdings for two consecutive months to identify additions, changes, and deletions.
 
 Before uploading into OpenRefine, combine the two spreadsheets you will be comparing into one spreadsheet.  
